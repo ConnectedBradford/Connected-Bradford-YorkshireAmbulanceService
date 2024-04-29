@@ -4,18 +4,14 @@
 
 This is the Connected Bradford Yorkshire Ambulance Service (YAS) GitHub page where you can find a summary of the dataset(s), data dictionaries and helpful code.
 
-# CB_)FDM_YAS
+# CB_Yorkshire Ambulance Services 
 
 Contains the scripts and data dictionary for the YAS. This is the data gathered by YAS. 
 It contains approximately 4 million patients. The dataset has been fully anonymised, but can link to other FDM's.
 
 There are three fdm's for YAS. 
 
-CB_FDM_YAS_V2 - build date 2023-05-11 - data up to 2023-02-28
-
-CB_FDM_YAS_V2 - build date 2023-08-07 - data up to 2023-07-31
-
-CB_FDM_YAS_V3 - build date 2023-10-27 - data up to 2023-07-31
+CB_FDM_YAS - build date 2023-10-27 - data up to 2023-07-31
 
 
 # YAS
