@@ -21,7 +21,7 @@ The dates relevant for the latest build are: 2009-10-16	to 2023-07-31
 
 The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
 
-As the YAS data often is very sparese this FDM includes persons where we do not have complete demographic information, in most cases the month and year of birth is missing as this is not gathered by YAS in all cases
+As the YAS data often is very sparse this FDM includes persons where we do not have complete demographic information, in most cases the month and year of birth is missing as this is not gathered by YAS in all cases
 
 ### Standard FDM tables included in this dataset*
 person.
