@@ -7,17 +7,18 @@ This is the Connected Bradford Yorkshire Ambulance Service (YAS) GitHub page whe
 # CB_Yorkshire Ambulance Services 
 
 Contains the scripts and data dictionary for the YAS. This is the data gathered by YAS. 
-It contains approximately 4 million patients. The dataset has been fully anonymised, but can link to other FDM's.
+The dataset has been fully anonymised, but can link to other FDM's.
 
 There are three fdm's for YAS. 
 
-CB_FDM_YAS - build date 2023-10-27 - data up to 2023-07-31
+CB_FDM_YAS - build date  2025-07-01
+
+Observation_period - 2014-04-01 to	2025-03-31
 
 
 # YAS
-The YAS FDM is made up of 29 source tables (summarised below and data dictionaries linked) from routinely collected data from YAS for 4,082,001 individuals and their routinely collected Ambulance Service data. 
+The YAS FDM is made up of 29 source tables (summarised below and data dictionaries linked) from routinely collected data from YAS for 4,429,251 individuals and their routinely collected Ambulance Service data. 
 
-The dates relevant for the latest build are: 2009-10-16	to 2023-07-31
 
 The source tables are largely populated by fields with the tbl_ where there is a person and a start and end date, and cb_ where there is no identifiable person, these are typically lookups.
 
@@ -26,35 +27,14 @@ As the YAS data often is very sparse this FDM includes persons where we do not h
 ### Standard FDM tables included in this dataset*
 person.
 
-observation period.
+observation_period.
 
-visit.
+personLSOA.
+
+tmp_persons_distinct.
+
 
 ### The source data tables are: 
-
-cb_ADSItem
-
-cb_Assessment
-
-cb_Incident
-
-cb_InterventionsAirway
-
-cb_InterventionsCannulation
-
-cb_InterventionsClinicalProc
-
-cb_InterventionsDrugAdmin
-
-cb_InterventionsExtrication
-
-cb_InterventionsIntubation
-
-cb_InterventionsPatAdvice
-
-cb_InterventionsResuscitation
-
-cb_Mobility
 
 cb_Observations
 
@@ -72,9 +52,9 @@ cb_PatientOutcomeReferral
 
 cb_PatientOutcomeRefusal
 
-cb_abandonded_calls
+cb_PCR
 
-cb_abandoned_calls
+cb_PrimarySurvey
 
 tbl_YAS_111
 
@@ -88,7 +68,31 @@ tbl_YAS_IUC
 
 tbl_YAS_PTS
 
-tbl_pcr
+cb_abandoned_calls
+
+cb_ADSItem
+
+cb_Assessment
+
+cb_InterventionsAirway
+
+cb_InterventionsCannulation
+
+cb_InterventionsClinicalProc
+
+cb_InterventionsDrugAdmin
+
+cb_InterventionsExtrication
+
+cb_InterventionsIntubation
+
+cb_InterventionsPatAdvice
+
+cb_InterventionsResuscitation
+
+cb_missing_iuc_cases_final
+
+cb_Mobility
 
 For more information please go to the docs folder. 
 
