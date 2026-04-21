@@ -6,6 +6,10 @@ This is the Connected Bradford Yorkshire Ambulance Service (YAS) GitHub page whe
 
 # CB_Yorkshire Ambulance Services 
 
+> [!WARNING]  
+> THIS information is out of date and subject to review. (20/04/2026)
+> 
+
 Contains the scripts and data dictionary for the YAS. This is the data gathered by YAS. 
 The dataset has been fully anonymised, but can link to other FDM's.
 
